@@ -1,0 +1,28 @@
+{
+  "name": "proof-of-existence-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "ethers": "^5.4.7",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciosantana/proof-of-existence-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciosantana/proof-of-existence-contract/issues"
+  },
+  "homepage": "https://github.com/fabriciosantana/proof-of-existence-contract#readme"
+}
