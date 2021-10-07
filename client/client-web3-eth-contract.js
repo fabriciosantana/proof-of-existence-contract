@@ -28,7 +28,7 @@ console.log(contract.options.address)
 
 //console.log(contract.methods.proof())
 
-console.log(contract.methods.notarize("Hello World")
+console.log(contract.methods.notarize('An amazing idea')
                 .send({
                     from: "0xaF8F0eDe4854ef49Cd0F54FA8399D2E376ac8B12",
                     //gasPrice: "210000",
