@@ -81,3 +81,6 @@ console.log(web3.eth.net)
 
 
 console.log(web3.eth.accounts.wallet)
+
+
+web3.eth.getBalance("0xaF8F0eDe4854ef49Cd0F54FA8399D2E376ac8B12").then(console.log)
