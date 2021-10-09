@@ -10,19 +10,19 @@ contract ProofOfExistence2 {
 
   // store a proof of existence in the contract state
   // *transactional function*
-  function storeProof(bytes32 proof) internal {
+  function storeProof(bytes32 proof) public {
     proofs.push(proof);
   }
 
   // calculate and store the proof for a document
   // *transactional function*
-  function notarize(string memory document) public {
+  function notarize(string memory document) external {
     bytes32 proof = proofFor(document);
     storeProof(proof);
   }
   // helper function to get a document's sha256
   // *read-only function*
-  function proofFor(string memory document) internal pure returns (bytes32) {
+  function proofFor(string memory document) public pure returns (bytes32) {
     return sha256(abi.encode(document));
   }
 
